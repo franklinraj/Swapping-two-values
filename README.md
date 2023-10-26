@@ -18,8 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+#Program to swap two values.
+#Developed by:Franklin raj G
+#RegisterNumber:23001518
+def swap(a,b):
+    c=a
+    a=b
+    b=c
+    print("Swapped values are: {} {}".format(a,b))
+a=float(input())
+b=float(input())
+swap(a,b)
 
-
+## OUTPUT: 
+![output](<output 1.png>)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
